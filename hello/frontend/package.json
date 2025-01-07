@@ -1,0 +1,44 @@
+{
+  "name": "aid-system-frontend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "aid-system-frontend": "file:",
+    "axios": "^0.21.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "devDependencies": {
+    "react-scripts": "^5.0.0",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
